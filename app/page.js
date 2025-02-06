@@ -1,4 +1,11 @@
-// pages/index.js
+export const metadata = {
+  title: 'AdsGuru AI360',
+  description: 'Your AI powered marketing tool to automate and optimize digital marketing',
+  icons: {
+    icon: '/favicon.ico',
+  },
+};
+
 export default function LoginPage() {
   return (
     <div style={{
@@ -89,7 +96,7 @@ export default function LoginPage() {
           fontSize: '14px',
           color: '#666'
         }}>
-          Don't have an account? <a href="/signup" style={{color: '#1a73e8', textDecoration: 'none'}}>Sign Up</a>
+          Don't have an account? <a href="https://adsguru.club" style={{color: '#1a73e8', textDecoration: 'none'}}>Sign Up</a>
         </p>
       </div>
     </div>
